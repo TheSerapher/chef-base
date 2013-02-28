@@ -18,3 +18,9 @@
 #
 
 include_recipe 'up2date'
+include_recipe 'chef-client'
+include_recipe 'chef-client::config'
+include_recipe 'users-wrapper'
+include_recipe 'ntp'
+include_recipe 'openssh'
+include_recipe 'sudo'
