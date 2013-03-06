@@ -11,6 +11,6 @@ recipe            "base::default", "Installs various software using other cookbo
   supports sup
 end
 
-%w( up2date ntp chef-client sudo openssh users-wrapper ).each do |dep|
+%w( up2date ntp chef-client sudo openssh users ).each do |dep|
   depends dep
 end
