@@ -1,4 +1,4 @@
-Description
+Description [ ![Codeship Status for TheSerapher/chef-base](https://www.codeship.io/projects/73c569c0-67e5-0130-2e0c-12313d093ed4/status?branch=master)](https://www.codeship.io/projects/1779)
 ===========
 
 Base cookbook that uses `include_recipe` to install and configure
@@ -71,14 +71,6 @@ This command will boot and provision the VM as specified in the `Vagrantfile`:
 
 (Berkshelf's Vagrant plugin will make your cookbook and its dependencies
 automatically available to Vagrant when creating or provisioning a VM.)
-
-## Travis CI
-
-The cookbook includes a configuration for [Travis CI](https://travis-ci.org) that
-will run `rake test` each time changes are pushed to GitHub. Simply enable Travis
-for your GitHub repository to get free continuous integration.
-
-[![Build Status](https://travis-ci.org/mlafeldt/base-cookbook.png?branch=master)](https://travis-ci.org/mlafeldt/base-cookbook)
 
 License and Author
 ==================
