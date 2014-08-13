@@ -1,4 +1,4 @@
-Description [ ![Codeship Status for TheSerapher/chef-base](https://www.codeship.io/projects/73c569c0-67e5-0130-2e0c-12313d093ed4/status?branch=master)](https://www.codeship.io/projects/1779)
+Description
 ===========
 
 Base cookbook that uses `include_recipe` to install and configure
